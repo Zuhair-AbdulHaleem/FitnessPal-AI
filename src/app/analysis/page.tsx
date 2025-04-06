@@ -31,7 +31,7 @@ export default function Analysis() {
           <div className="h-64">
             {/* Placeholder for chart - you can integrate a charting library here */}
             <div className="flex items-end h-48 space-x-4">
-              {progressData.map((data, index) => (
+              {progressData.map((data) => (
                 <div key={data.month} className="flex-1">
                   <div className="flex flex-col items-center">
                     <div
@@ -54,7 +54,7 @@ export default function Analysis() {
         >
           <h2 className="text-xl font-semibold mb-4">Performance Metrics</h2>
           <div className="space-y-4">
-            {stats.map((stat, index) => (
+            {stats.map((stat) => (
               <div key={stat.title} className="flex justify-between items-center">
                 <div>
                   <h3 className="text-gray-500 text-sm">{stat.title}</h3>
