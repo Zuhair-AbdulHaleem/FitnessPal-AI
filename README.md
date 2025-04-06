@@ -1,5 +1,7 @@
 # FitnessPalAI 🏋️‍♂️
 
+https://fitnesspal-ai.vercel.app/
+
 FitnessPalAI is a modern, AI-powered fitness and nutrition planning application that creates personalized workout and diet plans based on your individual goals, preferences, and constraints. Leveraging the power of Claude AI, it generates comprehensive fitness plans tailored to your specific needs.
 
 ![FitnessPalAI Logo](public/preview.png)
